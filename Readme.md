@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Тертышный](https://up.htmlacademy.ru/htmlcss/34/user/2041841).
-* Наставник: `Неизвестно`.
+* Наставник:  [Александр Панасюк](https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
