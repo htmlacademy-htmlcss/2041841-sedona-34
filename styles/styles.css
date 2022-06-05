@@ -38,6 +38,33 @@ body {
   background: #E5E5E5;
 }
 
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+} 
+
+.button-card {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.button-gallery {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.button-list{
+  color: #242424;
+  background-color: #ffffff;
+}
+
 .page-header {
   color: #000000;
   background: #FFFFFF;
@@ -112,7 +139,7 @@ line-height: 21px;
 }
 
 .page-footer {
-  background-image: url("images/background-footer.jpg")
+  background-image: url("images/background-footer.jpg");
 }
 
 .page-footer {
@@ -125,4 +152,37 @@ line-height: 21px;
 
 .footer-logo-HTML {
   text-align: right;
+}
+
+.inner-header {
+  background-image: url("images/background-catalog.jpg");
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.catalog-filter-item {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.header-title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.select-control {
+  color: #333333;
 }
