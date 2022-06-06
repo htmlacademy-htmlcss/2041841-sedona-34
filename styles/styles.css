@@ -76,7 +76,19 @@ body {
   line-height: 26px;
   color: #000000;
   font-weight: 700;
-}
+  text-decoration: none;
+  }
+
+  .navigation-link-prime{
+    font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  }
+
+  .navigation-item{
+    list-style-type: none;
+  }
 
 
 .invite {
@@ -123,33 +135,100 @@ background-color: #82B3D3;
   background-color: #82B3D3;
 }
 
-.description-house{
-  background-color: rgba(131, 179, 211, 0.12);
+.description-house-all{
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.description-subtitle-house{
   color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
+}
+
+.description-house{
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.description-food-all{
+  background-color:#FFFFFF;
+}
+
+.description-subtitle-food{
+  color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
 }
 
 .description-food{
+  font-size: 18px;
+  line-height: 21px;
   color: #333333;
 }
 
-.description-present{
+.description-present-all{
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.description-subtitle-present{
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
+}
+
+.description-present{
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.description-place-all{
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.description-subtitle-place{
+  color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
 }
 
 .description-place{
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12)
+}
+
+.description-road-all{
+  background-color:rgba(131, 179, 211, 0.2);
+}
+
+.description-subtitle-road{
+  color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
 }
 
 .description-road{
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.description-populace-all{
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.description-subtitle-populace{
+  color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
 }
 
 .description-populace{
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 
@@ -199,8 +278,13 @@ background-color: #82B3D3;
 
 .inner-header {
   background-image: url(../images/background-catalog.jpg);
-  background-size: 100% auto;
+  background-size: 100%;
   background-repeat: no-repeat;
+
+}
+
+.breadcrumbs-item{
+  list-style-type: none;
 }
 
 .button-first{
@@ -218,7 +302,7 @@ background-color: #82B3D3;
   color: #FFFFFF;
 }
 
-. button-pagination-link-pagination-current{
+.button-pagination-link-pagination-current{
   background-color:#F2F2F2;
   color:#000000;
 }
