@@ -35,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  background: #E5E5E5;
+  background-color: #ffffff;
 }
 
 .button {
@@ -45,9 +45,10 @@ body {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #756157;;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 } 
 
 .button-card {
@@ -74,11 +75,14 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  font-weight: 700;
 }
 
 
 .invite {
-  background-image: url("images/background-header.jpg");
+  background-image: url(../images/background-header.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .clarification{
@@ -98,22 +102,57 @@ body {
 .description{
   text-align: center;
   color: #FFFFFF;
+  
 }
 
 .description-subtitle{
   font-size: 24px;
   line-height: 28px;
+  background-color: #82B3D3;
 }
 
 .description-lead{
   font-size: 18px;
 line-height: 21px;
+background-color: #82B3D3;
 }
 
 .description-text{
   font-size: 18px;
   line-height: 21px;
+  background-color: #82B3D3;
 }
+
+.description-house{
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #333333;
+}
+
+.description-food{
+  color: #333333;
+}
+
+.description-present{
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.description-place{
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12)
+}
+
+.description-road{
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.description-populace{
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+
 
 .interest{
   text-align: center;
@@ -131,16 +170,20 @@ line-height: 21px;
   color: #333333;
 }
 
-.button{
+.newsletter-button{
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #82B3D3;
 }
 
 .page-footer {
-  background-image: url("images/background-footer.jpg");
+  background-image: url(../images/background-footer.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
+
 
 .page-footer {
   text-align: center;
@@ -155,9 +198,34 @@ line-height: 21px;
 }
 
 .inner-header {
-  background-image: url("images/background-catalog.jpg");
-  font-size: 60px;
-  line-height: 78px;
+  background-image: url(../images/background-catalog.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.button-first{
+  background-color: #756157;
+  color: #FFFFFF;
+}
+
+.button-second{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.button-third{
+  background-color: #7DB54F; 
+  color: #FFFFFF;
+}
+
+. button-pagination-link-pagination-current{
+  background-color:#F2F2F2;
+  color:#000000;
+}
+
+.button-pagination-link{
+  background-color: #82B3D3;
+  color: #FFFFFF;
 }
 
 .breadcrumbs-item {

@@ -43,66 +43,73 @@
         </li>
       </ul>
       <div>
-        <a href="#">Хочу сюда!</a>
+        <a class="button" href="#">Хочу сюда!</a>
       </div>
 
     </nav>
   </header>
   <main class="invite">
-    <img class="invite" src="images/welcome.svg" width="458" height="352" alt="welcome-to-sedona">
+    <img class="invite-img" src="images/welcome.svg" width="458" height="352" alt="welcome-to-sedona">
     <h1 class="clarification">Седона — небольшой городок в Аризоне,
       заслуживающий большего!</h1>
     <p class="clarification-link">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     <section class="description">
       <ul class="description">
         <li>
-          <div class="description-subtitle">>Настоящий городок</div> 
-          <div class="description-lead">(№1)</div> 
+          <div class="description-subtitle">>Настоящий городок</div>
+          <div class="description-lead">(№1)</div>
           <div class="description-text">Седона — не аттракцион для туристов, там течёт своя жизнь</div>
-          <img src="images/photo-1.jpg"  width="800" height="384" alt="old-house">
+          <img src="images/photo-1.jpg" width="800" height="384" alt="old-house">
+        </li>
           <ul>
             <li>
-              <p>Жильё</p>
-              <img src="images/house.svg"  width="75" height="72" alt="house">
-              <p> Рекомендуем пожить в настоящем мотеле,
+              <div class="description-house">Жильё</div>
+              <img class="description-house" src="images/house.svg" width="75" height="72" alt="house">
+              <p class="description-house"> Рекомендуем пожить в настоящем мотеле,
                 всё как в кино!</p>
             </li>
             <li>
-              <p>Еда</p>
-              <img src="images/food.svg" width="74" height="70" alt="food">
-              <p>Всегда заказывайте
+              <div class="description-food">Еда</div>
+              <img class="description-food" src="images/food.svg" width="74" height="70" alt="food">
+              <p class="description-food">Всегда заказывайте
                 топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li>
-              <p>Сувениры</p>
-              <img src="images/present.svg"  width="64" height="76" alt="present">
-              <p>Не только китайского,
+              <div class="description-present">Сувениры</div>
+              <img class="description-present" src="images/present.svg" width="64" height="76" alt="present">
+              <p class="description-present">Не только китайского,
                 но и настоящего местного производства!</p>
             </li>
           </ul>
         </li>
         <li>
-          <div>Там есть мост дьявола (№2) Да, по нему можно пройти! Если вы осмелитесь, разумеется</div>
-          <img src="images/photo-2.jpg"  width="800" height="384" alt="mountain">
+          <div class="description-subtitle">Там есть мост дьявола</div>
+          <div class="description-lead">(№2)</div> 
+          <div class="description-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</div>
+          <img class="description-place" src="images/photo-2.jpg" width="800" height="384" alt="mountain">
         </li>
         <li>
-          <p>Небольшая площадь (№3) </p>
-          <p>Все достопримечательности находятся очень близко</p>
+          <div class="description-place">Небольшая площадь</div>
+          <div class="description-place">(№3) </div>
+          <div class="description-place">Все достопримечательности находятся очень близко</div>
         </li>
         <li>
-          <p>Красивая дорога (№4)</p>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <div class="description-road">Красивая дорога</div>
+          <div class="description-road">(№4)</div>
+          <div class="description-road">Ехать в Седону из Лас-Вегаса совсем не скучно!</div>
         </li>
         <li>
-          <p>Мало туристов (№5)</p>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
+          <div class="description-populace">Мало туристов</div>
+          <div class="description-populace">(№5)</div>
+          <div class="description-populace">Большинство едет в Гранд Каньон и толпится там</div>
         </li>
       </ul>
     </section>
     <section class="interest">
       <li class="interest-item">
         <p class="interest-text">Заинтересовались?</p>
-        <p class="interest-desc">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне
+        <p class="interest-desc">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
+          Седоне
         </p>
         <a class="button" href="#">Поиск гостиницы в Седоне</a>
       </li>
@@ -111,7 +118,7 @@
 
   <footer class="page-footer">
     <section class="newsletter">
-      
+
       <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -126,27 +133,28 @@
     <section class="footer-social">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button" href="https://vk.com/htmlacademy"><img src="images/vk.svg" alt="vk">
+          <a class="footer-social-link" href="https://vk.com/htmlacademy"><img src="images/vk.svg" alt="vk">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://t.me/htmlacademy"><img src="images/telegram.svg" alt="telegram">
+          <a class="footer-social-link" href="https://t.me/htmlacademy"><img src="images/telegram.svg" alt="telegram">
             <span class="visually-hidden">Телеграмм</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg"
+          <a class="footer-social-link" href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg"
               alt="youtube">
             <span class="visually-hidden">Ютюб</span>
           </a>
         </li>
       </ul>
     </section>
-    <li class="contacts-phone" href="tel:+78005558628">+7 (812) 812-12-12</li>
-    <li class="about-text" class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</li>
-    <img class="footer-logo-HTML" src="images/HTML Academy.svg" alt="HTML-Academy">
-
+    <li>
+      <a class="contacts-phone" href="tel:+78005558628">+7 (812) 812-12-12</a>
+      <a class="about-text" class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+      <img class="footer-logo-HTML" src="images/HTML Academy.svg" alt="HTML-Academy">
+    </li>
   </footer>
 
 
