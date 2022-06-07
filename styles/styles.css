@@ -121,6 +121,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   background-color: #82B3D3;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-lead{
@@ -144,6 +146,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-house{
@@ -161,6 +165,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-food{
@@ -178,6 +184,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-present{
@@ -195,6 +203,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-place{
@@ -210,6 +220,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-road{
@@ -225,6 +237,8 @@ background-color: #82B3D3;
   Font-style: Bold;
   Font-size: 24px;
   Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .description-populace{
@@ -235,18 +249,28 @@ background-color: #82B3D3;
 
 .interest{
   text-align: center;
+  list-style-type: none;
 }
 
 .interest-text{
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .interest-desc{
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  font-weight: 400;
+}
+
+.newsletter{
+  background-image: url(../images/background-footer.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .newsletter-button{
@@ -257,10 +281,8 @@ background-color: #82B3D3;
   background-color: #82B3D3;
 }
 
-.page-footer {
-  background-image: url(../images/background-footer.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+.newsletter{
+  color: #FFFFFF;
 }
 
 
@@ -268,19 +290,61 @@ background-color: #82B3D3;
   text-align: center;
 }
 
+.page-footer-title{
+  text-transform: uppercase;
+}
+
+.footer-social-list{
+  list-style-type: none;
+}
+
 .footer-social-item {
   text-align: left;
+}
+
+.footer-contacts-list{
+  list-style-type: none;
+}
+
+.contacts-phone{
+  text-decoration: none;
+  list-style-type: none;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
 }
 
 .footer-logo-HTML {
   text-align: right;
 }
 
-.inner-header {
+
+
+.main-inner {
   background-image: url(../images/background-catalog.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 1200px;
+  height: 403px;
+}
 
+.inner-header-title{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link{
+  color: #FFFFFF;
+}
+
+.button-use{
+  background: #82B3D3;
+  color: #FFFFFF;
 }
 
 .breadcrumbs-item{
