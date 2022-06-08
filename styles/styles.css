@@ -271,6 +271,7 @@ background-color: #82B3D3;
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .newsletter-button{
@@ -279,19 +280,15 @@ background-color: #82B3D3;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+  border:solid #82B3D3;
 }
 
-.newsletter{
-  color: #FFFFFF;
+.page-subscribe-title{
+  text-transform: uppercase;
 }
-
 
 .page-footer {
   text-align: center;
-}
-
-.page-footer-title{
-  text-transform: uppercase;
 }
 
 .footer-social-list{
@@ -323,12 +320,41 @@ background-color: #82B3D3;
 
 
 
-.main-inner {
+.choice-reserve {
   background-image: url(../images/background-catalog.jpg);
-  background-size: 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  width: 1200px;
-  height: 403px;
+
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.catalog-filter-item {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.header-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  color: #333333;
 }
 
 .inner-header-title{
@@ -351,6 +377,12 @@ background-color: #82B3D3;
   list-style-type: none;
 }
 
+.rating{
+  width: 140px;
+  height: 37px;
+  background: #F2F2F2;
+}
+
 .button-first{
   background-color: #756157;
   color: #FFFFFF;
@@ -366,6 +398,10 @@ background-color: #82B3D3;
   color: #FFFFFF;
 }
 
+.pagination-item{
+  box-sizing: border-box;
+}
+
 .button-pagination-link-pagination-current{
   background-color:#F2F2F2;
   color:#000000;
@@ -376,29 +412,7 @@ background-color: #82B3D3;
   color: #FFFFFF;
 }
 
-.breadcrumbs-item {
-  font-size: 16px;
-  line-height: 21px;
-}
-
-.catalog-filter-title {
-  font-size: 20px;
-  line-height: 26px;
-  color: #FFFFFF;
-  font-weight: 700;
-}
-
-.catalog-filter-item {
-  color: #FFFFFF;
-  font-weight: 400;
-}
-
-.header-title {
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
-}
-
-.select-control {
-  color: #333333;
+.newsletter-catalog{
+  text-align: center;
+  text-transform: uppercase;
 }
