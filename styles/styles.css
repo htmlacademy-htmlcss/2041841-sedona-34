@@ -30,7 +30,13 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -45,11 +51,12 @@ body {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #756157;;
+  background-color: #756157;
+  ;
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-} 
+}
 
 .button-card {
   color: #242424;
@@ -61,7 +68,7 @@ body {
   background-color: #ffffff;
 }
 
-.button-list{
+.button-list {
   color: #242424;
   background-color: #ffffff;
 }
@@ -71,24 +78,50 @@ body {
   background: #FFFFFF;
 }
 
-  .navigation-link {
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 390px;
+}
+
+.navigation-user {
+  width: 84px;
+  margin-left: auto;
+}
+
+.navigation-link {
   font-size: 20px;
   line-height: 26px;
   color: #000000;
   font-weight: 700;
   text-decoration: none;
-  }
+}
 
-  .navigation-link-prime{
-    font-size: 20px;
+.main-container {
+  flex-grow: 1;
+}
+
+.invite-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.navigation-link-prime {
+  font-size: 20px;
   line-height: 26px;
   color: #000000;
   font-weight: 700;
-  }
+}
 
-  .navigation-item{
-    list-style-type: none;
-  }
+.navigation-item {
+  list-style-type: none;
+}
 
 
 .invite {
@@ -97,51 +130,76 @@ body {
   background-repeat: no-repeat;
 }
 
-.clarification{
+.clarification {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 36px;
 }
 
-.clarification-link{
+.clarification-link {
   text-align: center;
   color: #333333;
   font-size: 22px;
   line-height: 26px;
 }
 
-.description{
+.description {
   text-align: center;
   color: #FFFFFF;
+}
+
+.description-city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-countryside{
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
   
 }
 
-.description-subtitle{
+.description-all {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.description-subtitle {
   font-size: 24px;
   line-height: 28px;
   background-color: #82B3D3;
   font-weight: 700;
   text-transform: uppercase;
+  flex-direction: column;
+
 }
 
-.description-lead{
-  font-size: 18px;
-line-height: 21px;
-background-color: #82B3D3;
-}
-
-.description-text{
+.description-lead {
   font-size: 18px;
   line-height: 21px;
   background-color: #82B3D3;
+  flex-direction: column;
+
 }
 
-.description-house-all{
-  background-color:rgba(131, 179, 211, 0.12);
+.description-text {
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #82B3D3;
+  flex-direction: column;
+
 }
 
-.description-subtitle-house{
+.description-house-all {
+  background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.description-subtitle-house {
   color: #333333;
   Font-style: Bold;
   Font-size: 24px;
@@ -150,17 +208,17 @@ background-color: #82B3D3;
   text-transform: uppercase;
 }
 
-.description-house{
+.description-house {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
 }
 
-.description-food-all{
-  background-color:#FFFFFF;
+.description-food-all {
+  background-color: #FFFFFF;
 }
 
-.description-subtitle-food{
+.description-subtitle-food {
   color: #333333;
   Font-style: Bold;
   Font-size: 24px;
@@ -169,17 +227,17 @@ background-color: #82B3D3;
   text-transform: uppercase;
 }
 
-.description-food{
+.description-food {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
 }
 
-.description-present-all{
-  background-color:rgba(131, 179, 211, 0.12);
+.description-present-all {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
-.description-subtitle-present{
+.description-subtitle-present {
   color: #333333;
   Font-style: Bold;
   Font-size: 24px;
@@ -188,17 +246,17 @@ background-color: #82B3D3;
   text-transform: uppercase;
 }
 
-.description-present{
+.description-present {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
 }
 
-.description-place-all{
-  background-color:rgba(131, 179, 211, 0.12);
+.description-place-all {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
-.description-subtitle-place{
+.description-subtitle-place {
   color: #333333;
   Font-style: Bold;
   Font-size: 24px;
@@ -207,32 +265,15 @@ background-color: #82B3D3;
   text-transform: uppercase;
 }
 
-.description-place{
+.description-place {
   color: #333333;
 }
 
-.description-road-all{
-  background-color:rgba(131, 179, 211, 0.2);
+.description-road-all {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
-.description-subtitle-road{
-  color: #333333;
-  Font-style: Bold;
-  Font-size: 24px;
-  Line-height: 28px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.description-road{
-  color: #333333;
-}
-
-.description-populace-all{
-  background-color:rgba(131, 179, 211, 0.12);
-}
-
-.description-subtitle-populace{
+.description-subtitle-road {
   color: #333333;
   Font-style: Bold;
   Font-size: 24px;
@@ -241,32 +282,49 @@ background-color: #82B3D3;
   text-transform: uppercase;
 }
 
-.description-populace{
+.description-road {
+  color: #333333;
+}
+
+.description-populace-all {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.description-subtitle-populace {
+  color: #333333;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description-populace {
   color: #333333;
 }
 
 
 
-.interest{
+.interest {
   text-align: center;
   list-style-type: none;
 }
 
-.interest-text{
+.interest-text {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.interest-desc{
+.interest-desc {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   font-weight: 400;
 }
 
-.newsletter{
+.newsletter {
   background-image: url(../images/background-footer.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -274,36 +332,45 @@ background-color: #82B3D3;
   color: #FFFFFF;
 }
 
-.newsletter-button{
+.newsletter-button {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
-  border:solid #82B3D3;
+  border: solid #82B3D3;
 }
 
-.page-subscribe-title{
+.page-subscribe-title {
   text-transform: uppercase;
 }
 
 .page-footer {
   text-align: center;
+
 }
 
-.footer-social-list{
+.footer-social-list {
   list-style-type: none;
+  width: 142px;
+  display: block;
+  
 }
 
 .footer-social-item {
   text-align: left;
+  display: block;
+  
+  
 }
 
-.footer-contacts-list{
+.footer-contacts-list {
   list-style-type: none;
+
+
 }
 
-.contacts-phone{
+.contacts-phone {
   text-decoration: none;
   list-style-type: none;
   color: #333333;
@@ -312,10 +379,14 @@ background-color: #82B3D3;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
+  width: 331px;
+margin: 0 auto;
 }
 
 .footer-logo-HTML {
   text-align: right;
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -345,7 +416,7 @@ background-color: #82B3D3;
   font-weight: 400;
 }
 
-.header-title{
+.header-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -357,62 +428,62 @@ background-color: #82B3D3;
   color: #333333;
 }
 
-.inner-header-title{
+.inner-header-title {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
-.breadcrumbs-link{
+.breadcrumbs-link {
   color: #FFFFFF;
 }
 
-.button-use{
+.button-use {
   background: #82B3D3;
   color: #FFFFFF;
 }
 
-.breadcrumbs-item{
+.breadcrumbs-item {
   list-style-type: none;
 }
 
-.rating{
+.rating {
   width: 140px;
   height: 37px;
   background: #F2F2F2;
 }
 
-.button-first{
+.button-first {
   background-color: #756157;
   color: #FFFFFF;
 }
 
-.button-second{
+.button-second {
   background-color: #82B3D3;
   color: #FFFFFF;
 }
 
-.button-third{
-  background-color: #7DB54F; 
+.button-third {
+  background-color: #7DB54F;
   color: #FFFFFF;
 }
 
-.pagination-item{
+.pagination-item {
   box-sizing: border-box;
 }
 
-.button-pagination-link-pagination-current{
-  background-color:#F2F2F2;
-  color:#000000;
+.button-pagination-link-pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
 }
 
-.button-pagination-link{
+.button-pagination-link {
   background-color: #82B3D3;
   color: #FFFFFF;
 }
 
-.newsletter-catalog{
+.newsletter-catalog {
   text-align: center;
   text-transform: uppercase;
 }
