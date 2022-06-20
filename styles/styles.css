@@ -80,11 +80,7 @@ body {
   margin-right: 70px;
   width: 160px;
   margin-bottom: 14px;
-
-
-  
-
-
+  border-radius: 4px;
 }
 
 .button-card {
@@ -136,12 +132,11 @@ body {
   color: #000000;
   font-weight: 700;
   text-decoration: none;
-  
 }
 
 .navigation-logo {
   margin-left: 70px;
-  margin-right: 70px;
+  
 }
 
 .main-container {
@@ -158,8 +153,28 @@ body {
   
 }
 
+.navigation-item-prime{
+  position: relative;
+  text-decoration-line: underline;
+  text-underline-offset: 23px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #756257;
+  list-style-type: none;
+}
+
 .navigation-item {
   list-style-type: none;
+}
+
+.navigation-link-favorite{
+  margin-right: 32px;
+  display: block;
+  padding: 20px 17px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .invite-img {
@@ -490,6 +505,7 @@ body {
   margin-top: 56px;
   width: 574px;
   margin-bottom: 93px;
+  border-radius: 4px;
 
 }
 
@@ -499,9 +515,13 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: #FFFFFF;
-  height: 411px;
   margin: 0;
   padding: 0;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
 }
 
 .newsletter-button {
@@ -515,6 +535,7 @@ body {
   line-height: 36px;
   margin-top: 46px;
   width: 200px;
+  height: 60px;
   margin-bottom: 94px;
   font-size: 20px;
   line-height: 36px;
@@ -522,6 +543,7 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   border: solid #82B3D3;
+  border-radius: 0px 10px 10px 0px;
 
 
 }
@@ -529,6 +551,7 @@ body {
 .page-subscribe-title {
   text-transform: uppercase;
   padding-top: 94px;
+  margin: 0;
 }
 
 .page-subscribe {
@@ -541,12 +564,14 @@ body {
   background: #F2F2F2;
   border: none;
   width: 600px;
-  height: 60px;
+  height: 58px;
   margin-top: 46px;
   margin-bottom: 94px;
+  padding-left: 22px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .page-footer {
@@ -600,7 +625,8 @@ margin-left: 235px;
   background-image: url(../images/background-catalog.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-
+  padding: 0 auto;
+  height: 403px;
 }
 
 .breadcrumbs-item {
@@ -637,6 +663,7 @@ margin-left: 235px;
 
 .select-control {
   color: #333333;
+  background-color: #FFFFFF;
 }
 
 .inner-header-title {
@@ -646,18 +673,26 @@ margin-left: 235px;
   line-height: 78px;
 }
 
+
+
 .breadcrumbs-link {
   color: #FFFFFF;
 }
 
 .button-use {
-  background: #82B3D3;
+  display: block;
+  background-color: #82B3D3;
   color: #FFFFFF;
+  border: none;
   width: 160px;
   height: 48px;
 }
 
 .button-reset {
+  display: block;
+  background-color: rgba(28,28,28,0);
+  color: #FFFFFF;
+  border: none;
   width: 160px;
   height: 48px;
 }
@@ -669,6 +704,7 @@ margin-left: 235px;
 .select-hotel {
   display: flex;
   list-style-type: none;
+  background-color: #FFFFFF;
 }
 
 
@@ -706,6 +742,7 @@ margin-left: 235px;
 
 .pagination {
   display: flex;
+  background-color: #FFFFFF;
 }
 
 .select-control {
