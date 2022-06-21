@@ -33,7 +33,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><img src="images/favorite.svg" alt="favorite">
+            <a class="navigation-link-favorite" href="#"><img src="images/favorite.svg" alt="favorite">
               <span class="visually-hidden">
                 Лайк
               </span>
@@ -53,7 +53,8 @@
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html"><img src="images/hotel-catalog.svg" alt="house">
-              <a class="breadcrumbs-link">Гостиницы</a>
+              <a class="breadcrumbs-link" href="index.html"><img src="images/arrow-right.svg" alt="arrow-right">
+                <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
 
@@ -71,15 +72,15 @@
                       Бассейн
                     </label>
                   </li>
-                  <li class="catalog-filter-item">
+                  <li class="catalog-filter-item-parking">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Парковка" checked>
+                      <input class="control-input-parking" type="checkbox" name="Парковка" checked>
                       Парковка
                     </label>
                   </li>
-                  <li class="catalog-filter-item">
+                  <li class="catalog-filter-item-wi-fi">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Wi-Fi">
+                      <input class="control-input-wi-fi" type="checkbox" name="Wi-Fi">
                       Wi-Fi
                     </label>
                   </li>
@@ -96,13 +97,13 @@
                       Гостиница
                     </label>
                   </li>
-                  <li class="catalog-filter-item">
+                  <li class="catalog-filter-item-product-group">
                     <label class="control">
                       <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
                       Мотель
                     </label>
                   </li>
-                  <li class="catalog-filter-item">
+                  <li class="catalog-filter-item-product-group">
                     <label class="control">
                       <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
                       Апартаменты
@@ -120,22 +121,23 @@
 
       <div class="select-control">
         <h2 class="header-title">Найдено гостиниц: 38</h2>
-        <select class="select-control" aria-label="Сортировка">
+        <select class="select-control-separation" aria-label="separation">
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
-        <a href="#" class="button-card">
-          <span class="visually-hidden">Показать карточки</span>
-          <img src="images/icon-table.svg" alt="table">
-        </a>
-        <a class="button-gallery" href="#">
-          <span class="visually-hidden">Показать галерею</span>
-          <img src="images/icon-slideshow.svg" alt="slideshow">
-        </a>
-        <a class="button-list" href="#">
-          <span class="visually-hidden">Показать список</span>
-          <img src="images/icon-list.svg" alt="list">
-        </a>
+       
+          <a class="button-card" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+            <img src="images/icon-table.svg" alt="table">
+          </a>
+          <a class="button-gallery" href="#">
+            <span class="visually-hidden">Показать галерею</span>
+            <img src="images/icon-slideshow.svg" alt="slideshow">
+          </a>
+          <a class="button-list" href="#">
+            <span class="visually-hidden">Показать список</span>
+            <img src="images/icon-list.svg" alt="list">
+          </a>
       </div>
 
       <ul class="select-hotel">
