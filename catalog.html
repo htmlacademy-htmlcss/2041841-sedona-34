@@ -125,103 +125,112 @@
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
-       
-          <a class="button-card" href="#">
-            <span class="visually-hidden">Показать карточки</span>
-            <img src="images/icon-table.svg" alt="table">
-          </a>
-          <a class="button-gallery" href="#">
-            <span class="visually-hidden">Показать галерею</span>
-            <img src="images/icon-slideshow.svg" alt="slideshow">
-          </a>
-          <a class="button-list" href="#">
-            <span class="visually-hidden">Показать список</span>
-            <img src="images/icon-list.svg" alt="list">
-          </a>
+
+        <a class="button-card" href="#">
+          <span class="visually-hidden">Показать карточки</span>
+          <img src="images/icon-table.svg" alt="table">
+        </a>
+        <a class="button-gallery" href="#">
+          <span class="visually-hidden">Показать галерею</span>
+          <img src="images/icon-slideshow.svg" alt="slideshow">
+        </a>
+        <a class="button-list" href="#">
+          <span class="visually-hidden">Показать список</span>
+          <img src="images/icon-list.svg" alt="list">
+        </a>
       </div>
 
       <ul class="select-hotel">
         <li>
           <img src="images/hotel-4.jpg" alt="cave">
           <h3>Amara Resort & Spa</h3>
-          <p>Гостиница</p>
-          <p>От 4000 ₽</p>
+          <div class="select-hotel-price">
+          <p >Гостиница</p>
+          <p >От 4000 ₽</p>
+          </div>
           <a class="button-first" href="#">подробнее</a>
           <a class="button-second" href="#">в избранное</a>
+          <div class="select-hotel-rating">
           <img src="images/star.svg" alt="****">
           <p class="rating">Рейтинг: 8,5</p>
+          </div>
         </li>
-      </ul>
-
-      <ul class="select-hotel">
         <li>
           <img src="images/hotel-1.jpg" alt="rainbow-over-mountain">
           <h3>Villas at Poco Diablo</h3>
+          <div class="select-hotel-price">
           <p>Гостиница</p>
           <p>От 5000 ₽</p>
+        </div>
           <a class="button-first" href="#">подробнее</a>
           <a class="button-third" href="#">в избранном</a>
+          <div class="select-hotel-rating">
           <img src="images/star.svg" alt="****">
           <p class="rating">Рейтинг: 9,2</p>
+        </div>
         </li>
-      </ul>
-
-      <ul class="select-hotel">
         <li>
           <img src="images/hotel-2.jpg" alt="hill">
           <h3>Desert Quail Inn</h3>
+          <div class="select-hotel-price">
           <p>Гостиница</p>
           <p>От 2500 ₽</p>
+        </div>
           <a class="button-first" href="#">подробнее</a>
           <a class="button-second" href="#">в избранное</a>
+          <div class="select-hotel-rating">
           <img src="images/star.svg" alt="***">
           <p class="rating">Рейтинг: 6,9</p>
+        </div>
         </li>
-      </ul>
-
-      <ul class="select-hotel">
         <li>
           <img src="images/hotel-3.jpg" alt="hill-at-night">
           <h3>GreenTree Inn</h3>
+          <div class="select-hotel-price">
           <p>Гостиница</p>
           <p>От 1500 ₽</p>
+        </div>
           <a class="button-first" href="#">подробнее</a>
           <a class="button-second" href="#">в избранное</a>
+          <div class="select-hotel-rating">
           <img src="images/star.svg" alt="**">
           <p class="rating">Рейтинг: 5,0</p>
+        </div>
         </li>
       </ul>
 
-      <ul class="pagination">
-        <li class="pagination-item">
-          <a class="button-pagination-link-pagination-current">1</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button-pagination-link" href="#">2</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button-pagination-link" href="#">3</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button-pagination-link" href="#">4</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button-pagination-link" href="#">....</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button-pagination-link" href="#">10</a>
-        </li>
-      </ul>
-      <ul class="select-control">
-        <p>Гостиниц на странице:</p>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="amount">4</option>
-          <option value="amount">6</option>
-          <option value="amount">9</option>
-          <option value="amount">12</option>
-          <option value="amount">all</option>
-        </select>
-      </ul>
+      <div class="pagination-select-control-pages">
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="button-pagination-link-pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button-pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button-pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button-pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button-pagination-link" href="#">....</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button-pagination-link" href="#">10</a>
+          </li>
+        </ul>
+        <ul class="select-control-pages">
+          <p>Гостиниц на странице:</p>
+          <select class="separation-pages" aria-label="separation">
+            <option value="amount">4</option>
+            <option value="amount">6</option>
+            <option value="amount">9</option>
+            <option value="amount">12</option>
+            <option value="amount">all</option>
+          </select>
+        </ul>
+      </div>
       <section class="newsletter-catalog">
         <h2 class="page-subscribe-title-catalog">Подпишитесь на рассылку</h2>
         <p class="page-subscribe-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>

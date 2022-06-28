@@ -635,6 +635,7 @@ body {
 }
 
 .breadcrumbs-item {
+  list-style-type: none;
   font-size: 16px;
   line-height: 21px;
 }
@@ -709,20 +710,6 @@ body {
 
 }
 
-.header-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.select-control {
-  display: flex;
-  color: #333333;
-  background-color: #FFFFFF;
-}
-
 .inner-header-title {
   padding: 0;
   margin: 0;
@@ -776,69 +763,165 @@ body {
 
 .select-control {
   display: flex;
-  
+  align-items: center;
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
+.header-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #000000;
+  padding-top: 57px;
+  padding-left: 72px;
+  width: 338px;
+
+}
+
+
 .select-control-separation {
-  margin-left: 20px;
-  padding-right: 129px;
-  margin-left: 211px;
+  margin-left: 180px;
+  margin-top: 57px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  padding: 14px 90px 14px 20px;
+  border-radius: 4px;
+
 }
 
 
 
-.button-card{
-  margin: 17px;
-  padding-right: 24px;
-  border-color: #E5E5E5;
- 
+.button-card {
+  border: 2px solid #000000;
+  margin-top: 58px;
+  padding: 14px 16px 9px 16px;
+  margin-left: 55px;
+  border-radius: 4px;
+
+
 }
 
-.button-gallery{
-  margin: 17px;
-  padding-right: 24px;
+.button-gallery {
+  border: 2px solid #000000;
+  margin-top: 58px;
+  padding-left: 20px;
+  padding: 14px 16px 9px 16px;
+  margin-left: 8px;
+  border-radius: 4px;
+
 }
 
-.button-list{
-  margin: 17px;
-  padding-right: 87px;
+.button-list {
+  border: 2px solid #000000;
+  margin-top: 58px;
+  padding-left: 20px;
+  padding: 14px 16px 9px 16px;
+  margin-left: 8px;
+  margin-right: 70px;
+  border-radius: 4px;
 }
 
 .select-hotel {
-  display: flex;
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  justify-content: center;
   list-style-type: none;
   background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+  gap: 18px;
 }
 
-
-.breadcrumbs-item {
-  list-style-type: none;
+.select-hotel-price {
+  display: grid;
+  grid-template-columns: 155px 155px;
+  
 }
 
-.rating {
-  width: 140px;
-  height: 37px;
-  background-color: #F2F2F2;
+.select-hotel-rating{
+  display: grid;
+  grid-template-columns: 155px 155px;
 }
 
 .button-first {
   background-color: #756157;
   color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 120px;
+  border-radius: 4px;
 }
 
 .button-second {
   background-color: #82B3D3;
   color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 120px;
+  border-radius: 4px;
+
+
 }
 
 .button-third {
   background-color: #7DB54F;
   color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.rating {
+  background-color: #F2F2F2;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  width: 120px;
+  border-radius: 4px;
+  
+
+}
+
+
+
+.pagination-select-control-pages {
+  display: flex;
+  background-color: #FFFFFF;
+  padding-top: 96px;
+
 }
 
 .pagination-item {
@@ -851,18 +934,42 @@ body {
 .pagination {
   display: flex;
   background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 .button-pagination-link-pagination-current {
   background-color: #F2F2F2;
   color: #000000;
+  padding: 17px 23px 10px 23px;
+  margin-left: 72px;
+  border-radius: 4px;
 }
 
 .button-pagination-link {
+  padding: 17px 23px 10px 23px;
+  border-radius: 4px;
   background-color: #82B3D3;
   color: #FFFFFF;
+
+}
+
+.select-control-pages {
+  display: flex;
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding-left: 270px;
+}
+
+.separation-pages {
+  margin-right: 70px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 14px 125px 14px 20px;
+  border-radius: 4px;
 }
 
 
