@@ -61,7 +61,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  background-color: #E5E5E5;
+  background-color: #ffffff;
 }
 
 .button-here {
@@ -465,7 +465,6 @@ body {
 
 
 .interest {
-  margin: 0 auto;
   text-align: center;
   list-style-type: none;
   background-color: #ffffff;
@@ -614,7 +613,7 @@ body {
 
 .footer-contacts-HTML {
   margin-top: 49px;
-  margin-left: 235px;
+  margin-left: auto;
 }
 
 
@@ -847,6 +846,7 @@ body {
   display: grid;
   grid-template-columns: 155px 155px;
 }
+
 
 .button-first {
   background-color: #756157;
